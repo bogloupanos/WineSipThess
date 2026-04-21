@@ -1,0 +1,25 @@
+body {
+margin: 0;
+font-family: Arial;
+background: #1a0f0f;
+color: white;
+}
+
+.hero {
+text-align: center;
+padding: 80px 20px;
+background: linear-gradient(to right, #3b0a0a, #000);
+}
+
+.gallery {
+display: flex;
+justify-content: center;
+gap: 20px;
+padding: 40px;
+}
+
+.gallery img {
+width: 250px;
+border-radius: 12px;
+box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
